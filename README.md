@@ -18,7 +18,9 @@
   - POST localhost:3000/draw/{nodes}/{edges}
   
       Draws a graph with the given data in the monitor
+      
       nodes is an array of integers ex. [1,2,3]
+      
       edges is an array of arrays of two integers ex. [[1,2], [2,3]]
  
   - POST localhost:3000/clear
@@ -28,9 +30,11 @@
   - POST localhost:3000/addNode/{node}
    
       Adds a node to the graph
+      
       node is an integer
       
   - POST localhost:3000/addEdge/{edge}
 
       Adds an adge to the graph
+      
       edge is an array with two integers ex. [1,2]
